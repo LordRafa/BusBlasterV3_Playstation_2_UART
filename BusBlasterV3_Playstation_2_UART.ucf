@@ -1,7 +1,19 @@
 #Bus Blaster v3 pin connections
 
 # FT2232H Interface
+NET "FT_AD0_TCK"              LOC =  "P12";
 NET "FT_AD1_TDI"              LOC =  "P13";
 
 # JTAG Header
 NET "nTRST"               LOC =  "P38";
+NET "TCK"                 LOC =  "P34";
+NET "TDI"                 LOC =  "P37";
+NET "TMS"                 LOC =  "P36";
+NET "RTCK"                LOC =  "P33";
+
+# JP2 Header
+NET "JP2_P19_LED"         LOC =  "P19";
+NET "JP2_P28"             LOC =  "P28";
+
+# Others
+NET "BUTTON"               LOC =  "P18";
